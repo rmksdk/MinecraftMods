@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "wildborn",
+  "version": "1.0.0",
+  "name": "Wildborn Expansion",
+  "description": "New biomes, mobs, weapons, and the Blood Moon boss system.",
+  "authors": ["rmksdk"],
+  "contact": {
+    "sources": "https://github.com/rmksdk/MinecraftMods"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.wildborn.WildbornMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
